@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>d_09092024</groupId>
+  <artifactId>d_09092024</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+       <!-- Apache POI library for handling Excel files -->
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi</artifactId>
+           <version>5.2.3</version>
+       </dependency>
+
+       <!-- Apache POI OOXML library for handling .xlsx files -->
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml</artifactId>
+           <version>5.2.3</version>
+       </dependency>
+
+       <!-- Apache POI OOXML Schemas for better schema support -->
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml-schemas</artifactId>
+           <version>4.1.2</version>
+       </dependency>
+
+       <!-- Apache Commons Compress is often needed for POI -->
+       <dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-compress</artifactId>
+           <version>1.21</version>
+       </dependency>
+
+       <!-- Log4j2 API and Core for logging -->
+       <dependency>
+           <groupId>org.apache.logging.log4j</groupId>
+           <artifactId>log4j-api</artifactId>
+           <version>2.20.0</version> <!-- Use a stable version -->
+       </dependency>
+       <dependency>
+           <groupId>org.apache.logging.log4j</groupId>
+           <artifactId>log4j-core</artifactId>
+           <version>2.20.0</version> <!-- Use a stable version -->
+       </dependency>
+   </dependencies>
+</project>
